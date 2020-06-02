@@ -69,7 +69,7 @@ window = t.Tk()
 
 window.wm_title('Bookbase')
 
-window.iconbitmap(r'C:\Programming\Python_course\databaseapp\bookbase\book.ico')#this changes the window icon
+window.iconbitmap(r'book.ico')#this changes the window icon
 
 title = t.Label(window,text='Title') #creating the label widgets
 title.grid(row=0,column=0)
